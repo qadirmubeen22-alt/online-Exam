@@ -1,0 +1,28 @@
+[
+  {
+    "_id": "52fe132d1145bb7593cb6108",
+    "title": "Full-Stack Web Development Final Exam",
+    "description": "Comprehensive evaluation covering modern JavaScript ES6+, Browser Security, DOM Events, and Coding Algorithms.",
+    "createdBy": "f59e87e244f7dc89db05faac",
+    "durationMinutes": 15,
+    "passingScore": 60,
+    "examCode": "DEV101",
+    "maxWarnings": 3,
+    "isActive": true,
+    "createdAt": "2026-11-12T10:08:29.588Z",
+    "updatedAt": "2026-11-12T10:08:29.588Z"
+  },
+  {
+    "_id": "a87e161528267526ebe6180b",
+    "title": "Automated Integrity Test Quiz",
+    "description": "End-to-end verification of 3-strike auto-termination policy",
+    "createdBy": "f59e87e244f7dc89db05faac",
+    "durationMinutes": 10,
+    "passingScore": 50,
+    "examCode": "CVW3Q6",
+    "maxWarnings": 3,
+    "isActive": true,
+    "createdAt": "2026-11-12T10:18:07.221Z",
+    "updatedAt": "2026-11-12T10:18:07.221Z"
+  }
+]

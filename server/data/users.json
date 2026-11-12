@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "f59e87e244f7dc89db05faac",
+    "name": "Prof. Alan Turing",
+    "email": "teacher@exam.com",
+    "passwordHash": "$2a$10$GWwAA9/6lUsnIATZsElVA.u.ixfiQY36ZLtBy9T9tzTfOc0E4Si1O",
+    "role": "teacher",
+    "createdAt": "2026-11-12T10:08:29.582Z",
+    "updatedAt": "2026-11-12T10:08:29.583Z"
+  },
+  {
+    "_id": "a208ebfbe3d6d36c771d52a8",
+    "name": "Ada Lovelace",
+    "email": "student@exam.com",
+    "passwordHash": "$2a$10$GWwAA9/6lUsnIATZsElVA.b/n7hymGMqqWEfz6RbU/wk4hR6FvGXK",
+    "role": "student",
+    "createdAt": "2026-11-12T10:08:29.587Z",
+    "updatedAt": "2026-11-12T10:08:29.587Z"
+  }
+]

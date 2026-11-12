@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "c3a5528b89776b7a589085cb",
+    "submissionId": "a4dd8924d65e5bcaac34366f",
+    "violationType": "tab_switch",
+    "details": "Switched to Chrome DevTools or Google search tab",
+    "warningNumber": 1,
+    "timestamp": "2026-11-12T10:18:07.308Z",
+    "createdAt": "2026-11-12T10:18:07.308Z",
+    "updatedAt": "2026-11-12T10:18:07.308Z"
+  },
+  {
+    "_id": "d836f1c48a12c2394a1fbca4",
+    "submissionId": "a4dd8924d65e5bcaac34366f",
+    "violationType": "fullscreen_exit",
+    "details": "Student pressed ESC to exit fullscreen mode",
+    "warningNumber": 2,
+    "timestamp": "2026-11-12T10:18:07.326Z",
+    "createdAt": "2026-11-12T10:18:07.327Z",
+    "updatedAt": "2026-11-12T10:18:07.327Z"
+  },
+  {
+    "_id": "d1e6ce98647d7dcff5fa0c33",
+    "submissionId": "a4dd8924d65e5bcaac34366f",
+    "violationType": "copy_attempt",
+    "details": "Attempted Ctrl+C on exam question",
+    "warningNumber": 3,
+    "timestamp": "2026-11-12T10:18:07.338Z",
+    "createdAt": "2026-11-12T10:18:07.338Z",
+    "updatedAt": "2026-11-12T10:18:07.338Z"
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "_id": "99d267fd1dc18d44b68b7059",
+    "examId": "52fe132d1145bb7593cb6108",
+    "type": "mcq",
+    "questionText": "Which event is triggered in the browser when a student navigates away from the exam tab to another tab or application?",
+    "options": [
+      "document.onbeforeunload",
+      "document.visibilitychange",
+      "window.onresize",
+      "navigator.online"
+    ],
+    "correctOptionIndex": 1,
+    "marks": 3,
+    "createdAt": "2026-11-12T10:08:29.589Z",
+    "updatedAt": "2026-11-12T10:08:29.589Z"
+  },
+  {
+    "_id": "e0c3690ee6c0bbf9e88f8cb4",
+    "examId": "52fe132d1145bb7593cb6108",
+    "type": "mcq",
+    "questionText": "In React, which Hook is best suited for setting up browser event listeners like window.onblur and cleaning them up on unmount?",
+    "options": [
+      "useState",
+      "useMemo",
+      "useEffect",
+      "useCallback"
+    ],
+    "correctOptionIndex": 2,
+    "marks": 3,
+    "createdAt": "2026-11-12T10:08:29.590Z",
+    "updatedAt": "2026-11-12T10:08:29.590Z"
+  },
+  {
+    "_id": "b1ee4c932f7e0e4f2cb592fb",
+    "examId": "52fe132d1145bb7593cb6108",
+    "type": "mcq",
+    "questionText": "What HTTP status code must the backend return when a JWT authentication token is expired or completely missing?",
+    "options": [
+      "200 OK",
+      "400 Bad Request",
+      "401 Unauthorized",
+      "403 Forbidden"
+    ],
+    "correctOptionIndex": 2,
+    "marks": 3,
+    "createdAt": "2026-11-12T10:08:29.591Z",
+    "updatedAt": "2026-11-12T10:08:29.591Z"
+  },
+  {
+    "_id": "0141295fc14ff56195a3aa97",
+    "examId": "52fe132d1145bb7593cb6108",
+    "type": "code",
+    "questionText": "Problem Statement: Implement a function `isPalindrome(str)` that checks whether a given string is a palindrome (reads identical forwards and backwards), ignoring case and punctuation.",
+    "starterCode": "function isPalindrome(str) {\n  // Step 1: Clean the string (remove non-alphanumeric chars & lowercase)\n  const clean = str.toLowerCase().replace(/[^a-z0-9]/g, '');\n  \n  // Step 2: Compare with reversed version\n  return clean === clean.split('').reverse().join('');\n}\n\n// Test call\nconsole.log(isPalindrome(\"A man, a plan, a canal: Panama\")); // Expected: true",
+    "sampleInput": "\"racecar\"",
+    "sampleOutput": "true",
+    "marks": 5,
+    "createdAt": "2026-11-12T10:08:29.592Z",
+    "updatedAt": "2026-11-12T10:08:29.592Z"
+  },
+  {
+    "_id": "d3b4066911008906c9c5c8ab",
+    "examId": "52fe132d1145bb7593cb6108",
+    "type": "code",
+    "questionText": "Problem Statement: Write a function `calculateTrustScore(totalViolations, maxAllowed = 3)` that returns the student's remaining proctor trust percentage. Return 0 if violations reach or exceed maxAllowed.",
+    "starterCode": "function calculateTrustScore(totalViolations, maxAllowed = 3) {\n  if (totalViolations >= maxAllowed) return 0;\n  const penaltyPerViolation = 100 / maxAllowed;\n  return Math.max(0, Math.round(100 - (totalViolations * penaltyPerViolation)));\n}\n\n// Test call\nconsole.log(calculateTrustScore(1)); // Expected: ~67%",
+    "sampleInput": "totalViolations = 1, maxAllowed = 3",
+    "sampleOutput": "67",
+    "marks": 6,
+    "createdAt": "2026-11-12T10:08:29.593Z",
+    "updatedAt": "2026-11-12T10:08:29.593Z"
+  },
+  {
+    "_id": "d72029506fe1acfef836de25",
+    "examId": "a87e161528267526ebe6180b",
+    "type": "mcq",
+    "questionText": "What is the speed of light in vacuum?",
+    "options": [
+      "300,000 km/s",
+      "150,000 km/s",
+      "1,000 km/s",
+      "Sound speed"
+    ],
+    "correctOptionIndex": 0,
+    "starterCode": "",
+    "sampleInput": "",
+    "sampleOutput": "",
+    "marks": 5,
+    "createdAt": "2026-11-12T10:18:07.239Z",
+    "updatedAt": "2026-11-12T10:18:07.239Z"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "a4dd8924d65e5bcaac34366f",
+    "examId": "a87e161528267526ebe6180b",
+    "studentId": "a208ebfbe3d6d36c771d52a8",
+    "answers": [
+      {
+        "questionId": "d72029506fe1acfef836de25",
+        "response": 0,
+        "isMarkedForReview": false,
+        "awardedMarks": 0
+      }
+    ],
+    "totalScore": 0,
+    "status": "terminated",
+    "startedAt": "2026-11-12T10:18:07.278Z",
+    "createdAt": "2026-11-12T10:18:07.278Z",
+    "updatedAt": "2026-11-12T10:18:07.278Z",
+    "submittedAt": "2026-11-12T10:18:07.339Z",
+    "terminationReason": "Terminated: Triggered 3 academic integrity violations (copy_attempt)."
+  }
+]
